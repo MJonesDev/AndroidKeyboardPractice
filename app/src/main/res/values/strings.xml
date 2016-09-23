@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">Practice Keyboard</string>
-    <string name="subtype_en_US">English (US)</string>
+    <string name="app_name">Practice Keyboard</string> <!--The keyboard's name-->
+    <string name="subtype_en_US">English (US)</string> <!--The languages used - In this case: English US-->
 </resources>
