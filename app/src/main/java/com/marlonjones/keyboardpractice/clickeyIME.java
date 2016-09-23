@@ -11,7 +11,10 @@ import android.view.inputmethod.InputConnection;
 /**
  * Created by Marlon Jones (@MJonesDev) on 9/22/2016.
  */
-
+/*NOTE: THIS CODE WAS WRITTEN USING A TUTORIAL TO LEARN HOW TO MAKE KEYBOARDS - THIS IS NOT IN THE MATERIAL
+* DESIGN STANDARDS, AND SHOULD NOT BE USED AS A NORMAL EVERYDAY KEYBOARD WITHOUT MODIFICATION - THIS IS
+* ONLY FOR REFERENCE AND LEARNING. USE THIS EITHER AS STARTER CODE (Template for Keyboard) OR AS REFERENCE CODE
+* LICENSED UNDER MIT*/
 public class clickeyIME extends InputMethodService implements KeyboardView.OnKeyboardActionListener {
     private KeyboardView keys;
     private Keyboard qwerty;
