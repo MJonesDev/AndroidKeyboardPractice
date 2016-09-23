@@ -6,3 +6,4 @@
     android:layout_height="wrap_content"
     android:layout_alignParentBottom="true"
     android:keyPreviewLayout ="@layout/preview"/>
+<!--android.inputmethodservice.KeyboardView allows this code to be recognized as a keyboard-->

@@ -5,3 +5,4 @@
         android:imeSubtypeLocale="en_US"
         android:imeSubtypeMode="keyboard" />
 </input-method>
+<!--This is used for the different subtypes in keyboards - in this case: English (US)-->
