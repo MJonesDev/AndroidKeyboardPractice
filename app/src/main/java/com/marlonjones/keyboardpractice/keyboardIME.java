@@ -61,7 +61,7 @@ public class keyboardIME extends InputMethodService implements KeyboardView.OnKe
     }
     @Override
     public android.view.View onCreateInputView(){
-        keys=(KeyboardView)getLayoutInflater().inflate(R.layout.keyboard, null);
+        keys=(KeyboardView)getLayoutInflater().inflate(R.layout.keyboard, null); // Avoid Passing Null - TODO: FIND ALTERNATIVE
         qwerty = new Keyboard(this, R.xml.qwerty);
         keys.setKeyboard(qwerty);
         keys.setOnKeyboardActionListener(this);
