@@ -67,6 +67,7 @@ public class keyboardIME extends InputMethodService implements KeyboardView.OnKe
         keys.setOnKeyboardActionListener(this);
         return keys;
     }
+    //Sounds that are played according to key presses - Standard is used for all other keys
     private void playType (int keyCode){
         AudioManager audio = (AudioManager)getSystemService(AUDIO_SERVICE);
         switch(keyCode){
