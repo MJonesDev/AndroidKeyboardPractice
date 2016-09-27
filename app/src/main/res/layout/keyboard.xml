@@ -6,4 +6,5 @@
     android:layout_height="wrap_content"
     android:layout_alignParentBottom="true"
     android:keyPreviewLayout ="@layout/preview"/>
+<!--TODO - FIND SPELLING CORRECTION LIBRARY OR CODE AND IMPLEMENT HERE-->
 <!--android.inputmethodservice.KeyboardView allows this code to be recognized as a keyboard-->
