@@ -8,7 +8,7 @@
     <!--Some keys, however, would require Edge Flags to indicate the start and end of that row.-->
     <!--For example: the first row of a keyboard is QWERTYUIOP. So Q would need Android:keyEdgeFlags="left", and P would need right.-->
     <!--If the unicode is put in succession, similar to how 63, 33, and 58 are in this keyboard, then they will be used in that order upon pressing.-->
-    <Row> <!--Rows go from top to bottom-->
+    <Row> <!--Rows go from top to bottom--> <!--TODO: REMOVE TOP ROW AND ADD SWITCH TO NEW LAYOUT FOR NUMBERS & PUNCTUATION-->
         <Key android:codes="49" android:keyLabel="1" android:keyEdgeFlags="left"/>
         <Key android:codes="50" android:keyLabel="2"/>
         <Key android:codes="51" android:keyLabel="3"/>
